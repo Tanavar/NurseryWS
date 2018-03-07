@@ -18,6 +18,8 @@ $cid = $_GET["cid"];
 $ttid = $_GET["tid"];
  $tt = new TTClass;
 
+$selectedDates = $tt -> getSelectedDates($ttid, $cid);
+
  ?>
  
 <html>
@@ -44,6 +46,8 @@ $ttid = $_GET["tid"];
             <script>
 
 $(document).ready(function() {
+    $("#total_sessions").val($('[id^="chk"]:checkbox:checked').length);
+    
 $(":checkbox").change(function() { 
 $("#total_sessions").val($('[id^="chk"]:checkbox:checked').length);
 })
@@ -74,9 +78,20 @@ foreach ( $period as $dt )
 {
   if($dt->format("l") != 'Saturday' && $dt->format("l") != 'Sunday')
   {
+      
+
+      
       echo '<td width="20%"><div class="dvDates">', $dt->format("D"), '</br>', $dt->format("d/m"), '</div>';
-    echo '<label><input type="checkbox" name="chk', $dt->format("y/m/d"), '_AM" id="chk', $dt->format("d_m_Y"), '_AM"> AM</label>';
-    echo '</br><label><input type="checkbox" id="chk', $dt->format("d_m_Y"), '_PM" name="chk', $dt->format("y/m/d"), '_PM"> PM</label>', '</td>';
+    echo '<label><input type="checkbox" name="chk', $dt->format("y/m/d"), '_AM" id="chk', $dt->format("d_m_Y"), '_AM"';
+    
+          if(in_array($dt->format("Y/m/d"). '_AM', $selectedDates))
+       {echo 'checked';}
+       
+    echo '> AM</label>';
+    echo '</br><label><input type="checkbox" id="chk', $dt->format("d_m_Y"), '_PM" name="chk', $dt->format("y/m/d"), '_PM"';
+              if(in_array($dt->format("Y/m/d"). '_PM', $selectedDates))
+       {echo 'checked';}
+    echo '> PM</label>', '</td>';
   }
   
   if($dt->format("l") == 'Friday')

@@ -2,3 +2,8 @@
 [08-Jan-2018 20:29:58 Europe/London] PHP Warning:  unlink(../test/galleryPhotos/thumbnail_Background Double First 5 copy.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/marsh/public_html/Admin/libs/managePhotoClass.php on line 6
 [08-Jan-2018 20:31:01 Europe/London] PHP Warning:  unlink(../test/galleryPhotos/thumbnail_Background Double First 5 copy.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/marsh/public_html/Admin/libs/managePhotoClass.php on line 6
 [08-Jan-2018 20:36:10 Europe/London] PHP Warning:  unlink(../../test/galleryPhotos/thumbnail_Background Double First 5 copy.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/marsh/public_html/Admin/libs/managePhotoClass.php on line 8
+[07-Mar-2018 22:13:20 UTC] PHP Warning:  unlink(../): Is a directory in /home/marsh/public_html/Admin/libs/managePhotoClass.php on line 8
+[07-Mar-2018 22:13:31 UTC] PHP Warning:  unlink(../): Is a directory in /home/marsh/public_html/Admin/libs/managePhotoClass.php on line 8
+[07-Mar-2018 22:13:41 UTC] PHP Warning:  unlink(../): Is a directory in /home/marsh/public_html/Admin/libs/managePhotoClass.php on line 8
+[07-Mar-2018 22:14:28 UTC] PHP Warning:  unlink(../): Is a directory in /home/marsh/public_html/Admin/libs/managePhotoClass.php on line 8
+[07-Mar-2018 22:23:44 UTC] PHP Warning:  unlink(../../test/docs/ANEXO VII Informe Personal por Traslado.pdf): No such file or directory in /home/marsh/public_html/Admin/libs/managePhotoClass.php on line 8

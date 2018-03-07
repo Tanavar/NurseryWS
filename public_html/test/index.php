@@ -44,6 +44,7 @@ This room has direct access to an undercover outdoor area.
 </div>
 </div>
 <div class="footer">
+    <div class="ofsted"><img src="images\Ofsted_Good_GP_Colour.gif" alt="Ofsted Good Provider"></div>
 </div>
 <?
 include_once('templates/footer.php');

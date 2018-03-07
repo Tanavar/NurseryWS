@@ -28,7 +28,6 @@ We are fortunate to have a really strong team of qualified and experienced Early
     Designated Lead Child Protection Officer<br>
 SENCO<br>
 ENCO<br>
-Child Protection Officer<br>
 
 Foundation Degree in Early Years<br><br>
 

@@ -65,5 +65,18 @@ class TTClass {
       /*  $this -> dates = array( new DateTime( '2017-03-01' ), new DateTime( '2017-04-01' ));
    */
     }
+    
+    function getSelectedDates($ttid, $cid)
+    {
+         if ($result = $this->dbCon->query("SELECT Date, Session FROM ChildTimeTable WHERE TimeTableID = '$ttid' AND ChildID = '$cid'"))
+        
+        while($row = $result->fetch_assoc()) {
+        $column[] = str_replace("-","/",$row["Date"]) . "_" . $row["Session"];
+        
+    }
+    
+    return $column;
+    }
+    
 }
 ?>

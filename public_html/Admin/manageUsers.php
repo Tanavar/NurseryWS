@@ -35,7 +35,7 @@
     <table>
         <tr><td><b>UserName</b></td>
         <td><b>Firstname</b></td>
-        <td bgcolor="blue"><b>Surname</b></td>
+        <td><b>Surname</b></td>
         <td><b>Email Address</b></td>
         <td><b>Address</b></td>
         <td><b>New Password</b></td>
@@ -46,7 +46,7 @@
             
         <tr><td><input type="text" name="userId" id="userId"/></td>
         <td><input type="text" name="firstname" id="firstname"/></td>
-        <td bgcolor="blue"><input type="text" name="surname" id="surname"/></td>
+        <td><input type="text" name="surname" id="surname"/></td>
         <td><input type="text" name="email" id="email"/></td>
         <td><input type="text" name="address" id="address"/></td>
         <td><input type="text" name="password" id="password"/></td>
@@ -81,7 +81,7 @@
         echo  '<td><input type="textbox" name="address" id="address" value="' .
         $Address . '"></td>';
         echo  '<td><input type="password" name="pass" id="pass"></td>';
-        echo "<td>    <select name='userLevel' id='userLevel'>";
+        echo "<td>    <select name='userLevel' id='userLevel' disabled>";
         
         if($userType =="Parent")
         {
@@ -95,9 +95,13 @@
         }
         
         echo"</select></td>";
-         echo '<td>
-         <input type="submit" name="action" value="View Children" />
-         <input type="submit" name="action" value="Update" />
+         echo '<td>';
+         
+         if($userType =="Parent")
+         {
+         echo '<input type="submit" name="action" value="View Children" />';
+         }
+         echo '<input type="submit" name="action" value="Update" />
 <input type="submit" name="action" value="Delete" /></td>';
         echo '</form></tr>';
     }

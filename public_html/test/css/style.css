@@ -130,7 +130,7 @@ body {
 }
 
 .footer {
-	height: 30px;
+	height: 70px;
 	width: 100%;
 	background-color: #4196E1;
 	bottom: 0px;
@@ -217,6 +217,20 @@ body {
     border-radius:23%;
 }
 
+.ofsted
+{
+    width:80px;
+    height: 70px;
+    background-color: white;
+    float: right;
+}
+
+.ofsted img
+{
+    width:60px;
+    height: 60px;
+    padding: 5px;
+}
 /* ********************************************************* */
 #container {
 	width: 100%;
@@ -380,6 +394,9 @@ body {
     width:90%;
 }
 
+.footer {
+    height:125px;
+}
 iframe {
  width: 100%;
 }
