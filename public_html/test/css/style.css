@@ -1,0 +1,386 @@
+body {
+	font-family: "Century Gothic";
+	margin: 0px;
+}
+
+#staffMember h2,h3,p{
+ padding-top: 0px;
+ margin-top:0px;
+}
+
+.pageHeader {
+	margin: 5px;
+	font-family: inherit;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.menu {
+	width: 22%;
+	display: inline-grid;
+	min-width: 236px;
+	border-right: 3px solid  #4196E1;
+	padding-right: 4px;
+}
+
+.menu p {
+	margin: 0;
+	padding: 0;
+}
+
+.menu h3 {
+	margin-top: 10px;
+	padding-top: 10px;
+	margin-bottom: 3px;
+	padding-bottom: 3px;
+}
+
+
+.pageSubHeader {
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	font-family: inherit;
+	font-size: 16px;
+}
+
+.heading {
+	padding-left: 1%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nurseyHeading {
+	width: 70%;
+	float: left;
+}
+
+.buttonHeading {
+	width: 30%;
+	float: left;
+}
+
+.headingButton {
+	background-color: #6599FF;
+	border-radius: 6px;
+	border: none;
+	height: 33px;
+	width: 200px;
+	color: white;
+	font-size: 19px;
+	margin: 3px;
+	display: block;
+	margin-left: auto;
+	margin-right: 10%;
+}
+
+.navigationButton {
+	background-color: #6599FF;
+	border-radius: 6px;
+	border: 4px solid #6599FF;
+	height: 33px;
+	color: white;
+	font-size: 19px;
+	margin: 1px;
+	padding-right: 12px;
+	padding-left: 12px;
+
+}
+
+.navigationDiv {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.twitter-timeline {
+	width:80% !important;
+}
+
+.content {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #E7EDF3;
+}
+
+.content h1 {
+	padding: 20px;
+	margin: 0px;
+	color: #4196E1;
+}
+
+.content h2 {
+	padding: 20px;
+	margin: 0px;
+	color: #4196E1;
+}
+
+.navigationButton:hover {
+    background-color: #6599FF99;
+    color: white;
+	cursor: pointer;
+}
+
+.mainLogoPic {
+	width: 100%;
+}
+
+.footer {
+	height: 30px;
+	width: 100%;
+	background-color: #4196E1;
+	bottom: 0px;
+	text-align: center;
+}
+
+.contactUsForm {
+	width: 45%;
+	display: inline-grid;
+	text-align:left;
+}
+
+.txtbox, .txtareaMessage{
+	width: 100%;
+	padding: 10px;
+	margin: 1px;
+}
+
+.openingHoursHeading {
+	color: #4196E1;
+	font-size: 28px;
+	text-align: left;
+	font-weight: bolder;
+}
+
+.days {
+	color: #4196E1;
+	font-size: 22px;
+	font-weight: bolder;
+	text-align: left;
+	margin: 0px;
+	margin-bottom:7px;
+}
+
+.hours {
+	color: #000000;
+	font-size: 22px;
+	text-align: left;
+	margin: 0px;
+}
+
+.hoursTbl {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.galleryPhotos {
+    width: 350px;
+    margin: 2px;
+    vertical-align: middle;
+}
+
+.tabNaviagation {
+   height: 50px;
+    position: fixed;
+    bottom: 0;
+    background-color: #ffffff;
+    width: 100%;
+    display: none;
+    border-top-color: #4196E1;
+    border-top-width: 5px;
+    border-top-style: solid;
+    text-align: center;
+}
+
+.tabNaviagation img {
+    height: 100%;
+}
+
+.scrollImage
+{
+    height: 300px;
+}
+
+.homePanel{
+    width: 30%;
+    margin: 1%;
+    display: inline-table;
+}
+
+.homeRoomImg {
+    height:200px;
+    border-radius:23%;
+}
+
+/* ********************************************************* */
+#container {
+	width: 100%;
+	overflow: hidden;
+	margin: 0px auto;
+	height: 300px;
+	background: white;
+}
+
+.photobanner {
+
+	width: 100000px;
+	height: 300px;
+	margin-bottom: 80px;
+}
+
+/*keyframe animations*/
+.first {
+	-webkit-animation: bannermove 60s linear infinite;
+	   -moz-animation: bannermove 60s linear infinite;
+	    -ms-animation: bannermove 60s linear infinite;
+	     -o-animation: bannermove 60s linear infinite;
+	        animation: bannermove 60s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -6925px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -6925px; /*width of all images + (4.166 * image count) */
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -6925px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -6925px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -6925px;
+ }
+ 
+}
+
+/* ********************************************************* */
+
+/*min-device-width and max-device-width */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+
+.homePanel{
+    width: 90%;
+    margin: 1%;
+    display: inline-table;
+}
+
+.menu {
+	width: 90%;
+	display: inline-grid;
+	border-bottom: 3px solid  #4196E1;
+	border-right: none;
+	margin-bottom: 18px;
+}
+
+.menu br{
+    display: none;
+}
+
+.menu:first-of-type, .menu:last-of-type{
+    padding-bottom: 18px;
+}
+
+.menu h3:first-of-type{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.heading {
+    width: 99%;
+}
+
+.content {
+    width:99%;
+    margin-bottom:50px;
+}
+
+.headingButton {
+ margin-left:10px;    
+ margin-right:10px;
+ display: inline;
+ width: 160px;
+}
+
+.buttonHeading {
+    float:none;
+    width:99%;
+    text-align: center;
+}
+.navigationDiv {
+    display:none;
+}
+
+.tabNaviagation {
+    display:inline;
+}
+
+.galleryPhotos {
+    width: 350px;
+    margin: 2px;
+}
+
+.photobanner {
+	height: 200px;
+}
+
+.scrollImage
+{
+    height: 200px;
+}
+
+#container {
+	height: 200px;
+}
+
+.contactUsForm {
+	width: 90%;
+}
+
+.hoursTbl {
+    width:90%;
+}
+
+iframe {
+ width: 100%;
+}
+}

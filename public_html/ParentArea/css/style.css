@@ -1,0 +1,148 @@
+.loginTable {
+	margin: auto;
+	font-family: inherit;
+	font-weight: 600;
+	font-size: 30px;
+	text-align: center;
+}
+
+.inputBox {
+	width: 300px;
+	height: 40px;
+	display: block;
+	margin-bottom: -5px;
+	font-family: inherit;
+	font-size: 18px;
+	padding: 5px;
+}
+
+.signinButton {
+	width: 300px;
+	height: 40px;
+	margin: 0px;
+  	border-radius: 6px;
+	margin-top: 5px;
+	border-color: #3377ff;
+	background-color: #3377ff;
+	font-family: inherit;
+	font-weight: 300;
+	font-size: 20px;
+	color: white;
+}
+
+.error{
+	margin: auto;
+	font-family: inherit;
+	font-weight: 600;
+	font-size: 15px;
+	text-align: center;
+	color: red;
+}
+
+.header {
+	position: fixed;
+	height: 40px;
+	background-color: #FF7F2A;
+	width: 100%;
+  font-family: inherit;
+	color: white;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-weight: 600;
+}
+
+.headerText {
+	margin: 0px;
+	display: inline;
+	font-size: 20px;
+}
+
+.subHeaderText {
+	margin: 0px;
+	display: inline;
+  font-size: 12px;
+	margin-left:10px;
+}
+
+.parentHeading {
+	margin-top: 60px;
+	margin-left: 2%;
+	float: left;
+	font-family: inherit;
+	font-size: 20px;
+	background-color: #00EC00;
+	width: 80%;
+	border-radius: 6px;
+	color: white;
+	padding: 5px;
+}
+
+.childFemaleHeading, .childMaleHeading {
+	margin-top: 5px;
+	margin-left: 5%;
+	float: left;
+	font-family: inherit;
+	font-size: 20px;
+	background-color: #FF7F7F;
+	width: 80%;
+	border-radius: 6px;
+	color: white;
+	padding: 5px;
+}
+
+.childMaleHeading {
+	background-color: #7777FF;
+}
+
+.TTbuttons {
+ float: right;
+}
+
+.childFemaleSubHeading textarea, .childFemaleSubHeading input, .childFemaleSubHeading select,
+.childMaleSubHeading textarea, .childMaleSubHeading input, .childMaleSubHeading select,
+.parentSubHeading textarea, .parentSubHeading input, .parentSubHeading select {
+	font-family: : inherit;
+	color: black;
+	width: 100%;
+}
+
+.childFemaleSubHeading table, .childMaleSubHeading table, .parentSubHeading table{
+	font-family: : inherit;
+	font-size: 14px;
+	color: black;
+	width: 90%;
+}
+
+.childMaleSubHeading td, .childFemaleSubHeading td{
+	font-family: : inherit;
+	color: black;
+}
+
+.childFemaleSubHeading, .childMaleSubHeading, .parentSubHeading{
+	margin-top: 0px;
+	margin-left: 6%;
+	float: left;
+	font-family: inherit;
+	font-size: 20px;
+	background-color: #ffdFdF;
+	width: 80%;
+	border-radius: 6px;
+	color: white;
+	padding: 5px;
+	display: none;
+}
+
+.parentSubHeading {
+	margin-left: 3%;
+	background-color: #bbffbb;
+}
+
+.childMaleSubHeading {
+	background-color: #ddddff;
+}
+
+body {
+  margin: 0px;
+	font-family: "Helvetica";
+}

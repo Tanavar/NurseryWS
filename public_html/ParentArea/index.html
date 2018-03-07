@@ -1,0 +1,47 @@
+<html><head>
+<title>Marsh Lane Nursery - Parent Login</title>
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/style.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<script>
+$(document).ready(function () {	
+    
+$('#loginForm').submit(function(event) {
+event.preventDefault();
+	var dataObject = {"userid": $('#username').val(), "password": $('#password').val()};
+		$.ajax({
+			type: "POST",
+			url: "checkAccount.php",
+			data: dataObject,
+			cache: false,
+			success: function(result){
+				 if(result != 1)
+				 {
+				 if($('.error').length == 0)
+		            $('#loginForm').after('<p class="error">Username/Password combination incorrect</p>');
+	                $('.error').fadeIn().delay(400).fadeOut();
+	                
+				 }
+				 else
+				 {
+				    window.location.href = "dashboard.php"; 
+				 }
+
+				}
+			});
+			
+		});
+});
+
+</script>
+<style></style></head>
+<body>
+<form id="loginForm" action="checkAccount.php" action="post">
+<table class="loginTable">
+<tr><td>Please sign in</td></tr>
+<tr><td><input name="username" id="username" placeholder="Username" class="inputBox" \="" type="text"></td></tr>
+<tr><td><input name="password" id="password" placeholder="Password" class="inputBox" \="" type="password"></td></tr>
+<tr><td><input name="submit" id="submit" value="Sign in" class="signinButton" \="" type="submit"></td></tr>
+</table></form></body></html>

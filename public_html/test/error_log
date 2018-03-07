@@ -1,0 +1,6 @@
+[19-Dec-2017 20:47:03 Europe/London] PHP Warning:  Division by zero in /home/marsh/public_html/test/test.php on line 2
+[19-Dec-2017 20:47:03 Europe/London] PHP Warning:  include_once(php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/marsh/public_html/test/test.php on line 2
+[19-Dec-2017 20:47:03 Europe/London] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/marsh/public_html/test/test.php on line 2
+[26-Dec-2017 20:39:09 Europe/London] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/marsh/public_html/test/gallery.php on line 13
+[16-Feb-2018 20:51:41 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/marsh/public_html/test/emailScript.php on line 5
+[16-Feb-2018 20:51:54 UTC] PHP Parse error:  syntax error, unexpected '' . "\r\n" .' (T_CONSTANT_ENCAPSED_STRING) in /home/marsh/public_html/test/emailScript.php on line 7

@@ -1,0 +1,4 @@
+[08-Jan-2018 20:27:17 Europe/London] PHP Parse error:  syntax error, unexpected '>' in /home/marsh/public_html/Admin/libs/managePhotoClass.php on line 8
+[08-Jan-2018 20:29:58 Europe/London] PHP Warning:  unlink(../test/galleryPhotos/thumbnail_Background Double First 5 copy.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/marsh/public_html/Admin/libs/managePhotoClass.php on line 6
+[08-Jan-2018 20:31:01 Europe/London] PHP Warning:  unlink(../test/galleryPhotos/thumbnail_Background Double First 5 copy.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/marsh/public_html/Admin/libs/managePhotoClass.php on line 6
+[08-Jan-2018 20:36:10 Europe/London] PHP Warning:  unlink(../../test/galleryPhotos/thumbnail_Background Double First 5 copy.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in /home/marsh/public_html/Admin/libs/managePhotoClass.php on line 8

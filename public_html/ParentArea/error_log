@@ -1,0 +1,179 @@
+[11-Dec-2017 21:26:49 Europe/London] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /home/marsh/public_html/ParentArea/test.php on line 17
+[11-Dec-2017 22:49:30 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/marsh/public_html/ParentArea/login.php on line 14
+[11-Dec-2017 22:49:53 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/marsh/public_html/ParentArea/login.php on line 14
+[11-Dec-2017 22:50:54 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/marsh/public_html/ParentArea/login.php on line 14
+[11-Dec-2017 22:52:53 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/marsh/public_html/ParentArea/login.php on line 14
+[11-Dec-2017 22:54:11 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/marsh/public_html/ParentArea/test.php on line 13
+[11-Dec-2017 22:55:51 Europe/London] PHP Parse error:  syntax error, unexpected T_RETURN in /home/marsh/public_html/ParentArea/login.php on line 14
+[11-Dec-2017 22:58:46 Europe/London] PHP Parse error:  syntax error, unexpected T_RETURN in /home/marsh/public_html/ParentArea/login.php on line 14
+[11-Dec-2017 23:04:16 Europe/London] PHP Parse error:  syntax error, unexpected T_ECHO in /home/marsh/public_html/ParentArea/test.php on line 13
+[11-Dec-2017 23:10:50 Europe/London] PHP Parse error:  syntax error, unexpected '?' in /home/marsh/public_html/ParentArea/test.php on line 5
+[11-Dec-2017 23:10:51 Europe/London] PHP Parse error:  syntax error, unexpected '?' in /home/marsh/public_html/ParentArea/test.php on line 5
+[11-Dec-2017 23:11:03 Europe/London] PHP Parse error:  syntax error, unexpected $end in /home/marsh/public_html/ParentArea/test.php on line 21
+[11-Dec-2017 23:11:04 Europe/London] PHP Parse error:  syntax error, unexpected $end in /home/marsh/public_html/ParentArea/test.php on line 21
+[11-Dec-2017 23:11:32 Europe/London] PHP Parse error:  syntax error, unexpected $end in /home/marsh/public_html/ParentArea/test.php on line 20
+[11-Dec-2017 23:11:53 Europe/London] PHP Parse error:  syntax error, unexpected $end in /home/marsh/public_html/ParentArea/test.php on line 20
+[12-Dec-2017 08:33:17 Europe/London] PHP Parse error:  syntax error, unexpected $end in /home/marsh/public_html/ParentArea/test.php on line 20
+[12-Dec-2017 09:00:22 Europe/London] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/marsh/public_html/ParentArea/testlogin.php:2) in /home/marsh/public_html/ParentArea/testlogin.php on line 3
+[12-Dec-2017 09:00:37 Europe/London] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/marsh/public_html/ParentArea/testlogin.php:2) in /home/marsh/public_html/ParentArea/testlogin.php on line 3
+[12-Dec-2017 09:01:44 Europe/London] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/marsh/public_html/ParentArea/testlogin.php:2) in /home/marsh/public_html/ParentArea/testlogin.php on line 3
+[12-Dec-2017 09:06:04 Europe/London] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/marsh/public_html/ParentArea/testlogin.php:2) in /home/marsh/public_html/ParentArea/testlogin.php on line 3
+[19-Dec-2017 21:07:17 Europe/London] PHP Parse error:  syntax error, unexpected '}' in /home/marsh/public_html/ParentArea/dashboard.php on line 16
+[19-Dec-2017 21:07:57 Europe/London] PHP Parse error:  syntax error, unexpected '}' in /home/marsh/public_html/ParentArea/dashboard.php on line 16
+[19-Dec-2017 21:19:15 Europe/London] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/marsh/public_html/ParentArea/dashboard.php on line 8
+[19-Dec-2017 21:19:43 Europe/London] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/marsh/public_html/ParentArea/dashboard.php on line 8
+[19-Dec-2017 21:20:00 Europe/London] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/marsh/public_html/ParentArea/dashboard.php on line 8
+[19-Dec-2017 21:20:51 Europe/London] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/marsh/public_html/ParentArea/dashboard.php on line 8
+[19-Dec-2017 21:29:32 Europe/London] PHP Warning:  include(../../libs/user.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/marsh/public_html/ParentArea/dashboard.php on line 8
+[19-Dec-2017 21:29:32 Europe/London] PHP Warning:  include(../../libs/user.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/marsh/public_html/ParentArea/dashboard.php on line 8
+[19-Dec-2017 21:29:32 Europe/London] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../../libs/user.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/marsh/public_html/ParentArea/dashboard.php on line 8
+[19-Dec-2017 21:29:54 Europe/London] PHP Warning:  include(libs/user.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/marsh/public_html/ParentArea/dashboard.php on line 8
+[19-Dec-2017 21:29:54 Europe/London] PHP Warning:  include(libs/user.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/marsh/public_html/ParentArea/dashboard.php on line 8
+[19-Dec-2017 21:29:54 Europe/London] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'libs/user.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/marsh/public_html/ParentArea/dashboard.php on line 8
+[19-Dec-2017 21:30:23 Europe/London] PHP Fatal error:  Cannot use 'parent' as class name as it is reserved in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 2
+[19-Dec-2017 21:30:24 Europe/London] PHP Fatal error:  Cannot use 'parent' as class name as it is reserved in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 2
+[19-Dec-2017 21:33:20 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 13
+[19-Dec-2017 21:36:36 Europe/London] PHP Parse error:  syntax error, unexpected '/' in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 13
+[19-Dec-2017 21:36:49 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 13
+[19-Dec-2017 21:40:19 Europe/London] PHP Warning:  mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: invalid object or resource mysqli
+ in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 14
+[19-Dec-2017 21:45:57 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 15
+[19-Dec-2017 21:45:59 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 15
+[19-Dec-2017 21:50:19 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 14
+[19-Dec-2017 21:52:06 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 14
+[19-Dec-2017 21:52:40 Europe/London] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/marsh/dbConfig.php on line 6
+[19-Dec-2017 21:52:41 Europe/London] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/marsh/dbConfig.php on line 6
+[19-Dec-2017 21:52:52 Europe/London] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/marsh/dbConfig.php on line 6
+[19-Dec-2017 21:55:29 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 13
+[19-Dec-2017 22:01:15 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 13
+[19-Dec-2017 22:01:28 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 13
+[19-Dec-2017 22:02:17 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 13
+[19-Dec-2017 22:05:36 Europe/London] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 14
+[19-Dec-2017 22:05:36 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 15
+[19-Dec-2017 22:05:57 Europe/London] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 14
+[19-Dec-2017 22:05:57 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 15
+[19-Dec-2017 22:06:23 Europe/London] PHP Warning:  include(../../../dbConfig.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 2
+[19-Dec-2017 22:06:23 Europe/London] PHP Warning:  include(../../../dbConfig.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 2
+[19-Dec-2017 22:06:23 Europe/London] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../../../dbConfig.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 2
+[19-Dec-2017 22:06:23 Europe/London] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 15
+[19-Dec-2017 22:06:23 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 16
+[19-Dec-2017 22:06:33 Europe/London] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 15
+[19-Dec-2017 22:06:33 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 16
+[19-Dec-2017 22:06:47 Europe/London] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 15
+[19-Dec-2017 22:06:47 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 16
+[19-Dec-2017 22:07:35 Europe/London] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 15
+[19-Dec-2017 22:07:35 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 16
+[19-Dec-2017 22:07:36 Europe/London] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 15
+[19-Dec-2017 22:07:36 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 16
+[19-Dec-2017 22:09:56 Europe/London] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in /home/marsh/public_html/ParentArea/libs/db.php on line 7
+[19-Dec-2017 22:11:38 Europe/London] PHP Parse error:  syntax error, unexpected T_NEW in /home/marsh/public_html/ParentArea/libs/db.php on line 6
+[19-Dec-2017 22:11:56 Europe/London] PHP Parse error:  syntax error, unexpected T_NEW in /home/marsh/public_html/ParentArea/libs/db.php on line 6
+[19-Dec-2017 22:11:57 Europe/London] PHP Parse error:  syntax error, unexpected T_NEW in /home/marsh/public_html/ParentArea/libs/db.php on line 6
+[19-Dec-2017 22:11:58 Europe/London] PHP Parse error:  syntax error, unexpected T_NEW in /home/marsh/public_html/ParentArea/libs/db.php on line 6
+[19-Dec-2017 22:12:11 Europe/London] PHP Parse error:  syntax error, unexpected T_NEW in /home/marsh/public_html/ParentArea/libs/db.php on line 6
+[19-Dec-2017 22:12:12 Europe/London] PHP Parse error:  syntax error, unexpected T_NEW in /home/marsh/public_html/ParentArea/libs/db.php on line 6
+[19-Dec-2017 22:12:28 Europe/London] PHP Parse error:  syntax error, unexpected '}' in /home/marsh/public_html/ParentArea/libs/db.php on line 9
+[19-Dec-2017 22:12:51 Europe/London] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 15
+[19-Dec-2017 22:12:51 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 16
+[19-Dec-2017 22:13:04 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home/marsh/public_html/ParentArea/libs/db.php on line 18
+[19-Dec-2017 22:13:18 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home/marsh/public_html/ParentArea/libs/db.php on line 14
+[19-Dec-2017 22:13:43 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home/marsh/public_html/ParentArea/libs/db.php on line 15
+[19-Dec-2017 22:13:43 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home/marsh/public_html/ParentArea/libs/db.php on line 15
+[19-Dec-2017 22:13:55 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home/marsh/public_html/ParentArea/libs/db.php on line 14
+[19-Dec-2017 22:13:56 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home/marsh/public_html/ParentArea/libs/db.php on line 14
+[19-Dec-2017 22:15:35 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home/marsh/public_html/ParentArea/libs/db.php on line 14
+[19-Dec-2017 22:15:59 Europe/London] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 15
+[19-Dec-2017 22:15:59 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 16
+[19-Dec-2017 22:16:26 Europe/London] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 15
+[19-Dec-2017 22:16:26 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 16
+[19-Dec-2017 22:16:54 Europe/London] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 15
+[19-Dec-2017 22:16:54 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 16
+[19-Dec-2017 22:16:55 Europe/London] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 15
+[19-Dec-2017 22:16:55 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 16
+[19-Dec-2017 22:17:21 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 16
+[19-Dec-2017 22:17:49 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 16
+[19-Dec-2017 22:18:19 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 17
+[19-Dec-2017 22:18:42 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 17
+[19-Dec-2017 22:18:42 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 17
+[19-Dec-2017 22:19:16 Europe/London] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/marsh/public_html/ParentArea/libs/db.php on line 11
+[19-Dec-2017 22:20:17 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 17
+[19-Dec-2017 22:22:06 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 16
+[19-Dec-2017 22:22:39 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 16
+[19-Dec-2017 22:23:03 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 16
+[19-Dec-2017 22:28:18 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 29
+[19-Dec-2017 22:28:39 Europe/London] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 15
+[19-Dec-2017 22:30:39 Europe/London] PHP Fatal error:  Call to a member function query() on a non-object in /home/marsh/public_html/ParentArea/libs/parentClass.php on line 26
+[19-Dec-2017 23:03:52 Europe/London] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/marsh/public_html/ParentArea/libs/childClass.php on line 3
+[19-Dec-2017 23:04:44 Europe/London] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/marsh/public_html/ParentArea/libs/childClass.php on line 4
+[19-Dec-2017 23:04:46 Europe/London] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/marsh/public_html/ParentArea/libs/childClass.php on line 4
+[19-Dec-2017 23:05:01 Europe/London] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/marsh/public_html/ParentArea/libs/childClass.php on line 5
+[19-Dec-2017 23:05:43 Europe/London] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/marsh/public_html/ParentArea/libs/childClass.php on line 6
+[19-Dec-2017 23:06:04 Europe/London] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/marsh/public_html/ParentArea/libs/childClass.php on line 6
+[19-Dec-2017 23:06:30 Europe/London] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/marsh/public_html/ParentArea/libs/childClass.php on line 7
+[19-Dec-2017 23:07:08 Europe/London] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in /home/marsh/public_html/ParentArea/libs/childClass.php on line 3
+[19-Dec-2017 23:08:08 Europe/London] PHP Fatal error:  Cannot redeclare childClass::$dbCon in /home/marsh/public_html/ParentArea/libs/childClass.php on line 7
+[19-Dec-2017 23:08:48 Europe/London] PHP Fatal error:  Cannot redeclare childClass::$dbCon in /home/marsh/public_html/ParentArea/libs/childClass.php on line 7
+[21-Dec-2017 12:48:35 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/marsh/public_html/ParentArea/dashboard.php on line 19
+[21-Dec-2017 12:49:05 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/marsh/public_html/ParentArea/dashboard.php on line 19
+[21-Dec-2017 12:49:27 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/marsh/public_html/ParentArea/dashboard.php on line 20
+[21-Dec-2017 12:49:47 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/marsh/public_html/ParentArea/dashboard.php on line 21
+[21-Dec-2017 12:50:04 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/marsh/public_html/ParentArea/dashboard.php on line 21
+[21-Dec-2017 12:52:09 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 16
+[21-Dec-2017 12:52:21 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 16
+[21-Dec-2017 12:54:14 Europe/London] PHP Parse error:  syntax error, unexpected T_STRING in /home/marsh/public_html/ParentArea/libs/childClass.php on line 22
+[21-Dec-2017 12:54:16 Europe/London] PHP Parse error:  syntax error, unexpected T_STRING in /home/marsh/public_html/ParentArea/libs/childClass.php on line 22
+[21-Dec-2017 12:58:33 Europe/London] PHP Parse error:  syntax error, unexpected T_ECHO in /home/marsh/public_html/ParentArea/dashboard.php on line 97
+[21-Dec-2017 13:01:40 Europe/London] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/marsh/public_html/ParentArea/dashboard.php on line 120
+[06-Jan-2018 20:48:45 Europe/London] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/marsh/public_html/ParentArea/checkAccount.php on line 18
+[06-Jan-2018 20:49:49 Europe/London] PHP Warning:  mysqli_result::fetch_assoc() [<a href='mysqli-result.fetch-assoc'>mysqli-result.fetch-assoc</a>]: Couldn't fetch mysqli_result in /home/marsh/public_html/ParentArea/checkAccount.php on line 18
+[06-Jan-2018 20:50:16 Europe/London] PHP Warning:  mysqli_result::fetch_assoc() [<a href='mysqli-result.fetch-assoc'>mysqli-result.fetch-assoc</a>]: Couldn't fetch mysqli_result in /home/marsh/public_html/ParentArea/checkAccount.php on line 18
+[06-Jan-2018 20:51:54 Europe/London] PHP Warning:  mysqli_result::fetch_assoc() [<a href='mysqli-result.fetch-assoc'>mysqli-result.fetch-assoc</a>]: Couldn't fetch mysqli_result in /home/marsh/public_html/ParentArea/checkAccount.php on line 18
+[06-Jan-2018 20:52:41 Europe/London] PHP Warning:  mysqli_fetch_assoc() [<a href='function.mysqli-fetch-assoc'>function.mysqli-fetch-assoc</a>]: Couldn't fetch mysqli_result in /home/marsh/public_html/ParentArea/checkAccount.php on line 18
+[06-Jan-2018 21:18:00 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/marsh/public_html/ParentArea/dashboard.php:6) in /home/marsh/public_html/ParentArea/dashboard.php on line 9
+[06-Jan-2018 21:18:10 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/marsh/public_html/ParentArea/dashboard.php:6) in /home/marsh/public_html/ParentArea/dashboard.php on line 9
+[06-Jan-2018 21:38:11 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 67
+[06-Jan-2018 21:38:45 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 67
+[06-Jan-2018 21:39:56 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 67
+[06-Jan-2018 21:40:47 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 67
+[06-Jan-2018 21:44:24 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 67
+[06-Jan-2018 21:46:48 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 67
+[15-Jan-2018 20:17:32 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 67
+[15-Jan-2018 20:18:32 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 67
+[15-Jan-2018 21:23:09 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 67
+[15-Jan-2018 23:25:18 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 67
+[16-Jan-2018 21:15:40 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 67
+[16-Jan-2018 22:39:46 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 67
+[16-Jan-2018 23:16:15 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 67
+[22-Jan-2018 22:27:30 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 67
+[22-Jan-2018 22:32:11 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[23-Jan-2018 13:49:15 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[23-Jan-2018 16:32:47 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[23-Jan-2018 16:34:55 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[25-Jan-2018 14:21:22 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[05-Feb-2018 10:27:23 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[06-Feb-2018 19:22:28 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[13-Feb-2018 21:19:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[20-Feb-2018 21:40:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[20-Feb-2018 23:18:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[21-Feb-2018 17:27:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[22-Feb-2018 20:54:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[25-Feb-2018 21:23:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[25-Feb-2018 21:23:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[25-Feb-2018 22:12:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[25-Feb-2018 23:09:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[25-Feb-2018 23:43:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[25-Feb-2018 23:46:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[25-Feb-2018 23:49:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[26-Feb-2018 10:18:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[26-Feb-2018 14:59:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[26-Feb-2018 21:49:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[27-Feb-2018 21:09:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[27-Feb-2018 22:31:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[27-Feb-2018 22:56:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[28-Feb-2018 09:14:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[02-Mar-2018 14:09:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[02-Mar-2018 14:36:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[06-Mar-2018 22:38:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[07-Mar-2018 11:00:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[07-Mar-2018 11:02:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68
+[07-Mar-2018 12:15:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/marsh/public_html/ParentArea/dashboard.php on line 68

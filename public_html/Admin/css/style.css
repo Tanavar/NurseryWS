@@ -1,0 +1,141 @@
+.header {
+	position: fixed;
+	height: 40px;
+	background-color: #FF7F2A;
+	width: 100%;
+	font-family: inherit;
+	color: white;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-weight: 600;
+}
+
+.header button {
+    background-color: #6599FF;
+    border-radius: 6px;
+    border: none;
+    height: 25px;
+    width: 100px;
+    color: white;
+    font-size: 15px;
+    margin: 3px;
+    float: right;
+    margin-right: 50px;
+}
+
+
+.headerText {
+	margin: 0px;
+	display: inline;
+	font-size: 20px;
+}
+
+.content {
+    margin-top: 60px;
+    margin-left: 2%;
+    float: left;
+    font-family: inherit;
+    font-size: 20px;
+    width: 80%;
+    border-radius: 6px;
+    color: Black;
+    padding: 5px;
+}
+
+.content button {
+    background-color: #6599FF;
+    border-radius: 6px;
+    border: none;
+    height: 33px;
+    width: 200px;
+    color: white;
+    font-size: 19px;
+    margin: 3px;
+}
+
+.galleryPhotos {
+    width:100px;
+}
+
+body {
+    margin: 0px;
+    font-family: "Helvetica";
+}
+
+.childFemaleHeading, .childMaleHeading {
+	margin-top: 5px;
+	margin-left: 5%;
+	float: left;
+	font-family: inherit;
+	font-size: 20px;
+	background-color: #FF7F7F;
+	width: 80%;
+	border-radius: 6px;
+	color: white;
+	padding: 5px;
+}
+
+.childMaleHeading {
+	background-color: #7777FF;
+}
+
+.childFemaleSubHeading textarea, .childFemaleSubHeading input, .childFemaleSubHeading select,
+.childMaleSubHeading textarea, .childMaleSubHeading input, .childMaleSubHeading select,
+.parentSubHeading textarea, .parentSubHeading input, .parentSubHeading select {
+	font-family: : inherit;
+	color: black;
+	width: 100%;
+}
+
+.childFemaleSubHeading table, .childMaleSubHeading table, .parentSubHeading table{
+	font-family: : inherit;
+	font-size: 14px;
+	color: black;
+	width: 90%;
+}
+
+.childMaleSubHeading td, .childFemaleSubHeading td{
+	font-family: : inherit;
+	color: black;
+}
+
+.childFemaleSubHeading, .childMaleSubHeading, .parentSubHeading{
+	margin-top: 0px;
+	margin-left: 6%;
+	float: left;
+	font-family: inherit;
+	font-size: 20px;
+	background-color: #ffdFdF;
+	width: 80%;
+	border-radius: 6px;
+	color: white;
+	padding: 5px;
+	display: none;
+}
+
+
+.childMaleSubHeading {
+	background-color: #ddddff;
+}
+
+
+.parentHeading {
+	margin-top: 60px;
+	margin-left: 2%;
+	float: left;
+	font-family: inherit;
+	font-size: 20px;
+	width: 80%;
+	border-radius: 6px;
+	color: white;
+	padding: 5px;
+}
+
+.ttTable tr:nth-child(even) {
+    background-color: #ff7f2a78;
+}
+
+.ttTable {
+border-spacing:5px;
+}
